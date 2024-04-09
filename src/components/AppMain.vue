@@ -76,6 +76,161 @@ export default {
     </div>
 
   </div>
+  <!-- /.gaming-plat -->
+
+  <div class="battle">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-12 battle-title">
+          <div class="sub-title">Trending Battle</div>
+          <div class="title">Keep Eyes & Manage Upcoming Battle</div>
+          <div class="text">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae corrupti maxime dignissimos
+            facere id alias?
+          </div>
+        </div>
+        <!-- /.title-match -->
+
+        <div class="col-6">
+          <div class="card mt-3">
+
+            <div class="match p-4">
+              <img src="../assets/images/game-img-1.png" alt="">
+              <span class="versus">VS</span>
+              <img src="../assets/images/game-img-2.png" alt="">
+            </div>
+
+            <div class="match-info">
+              <div class="game-tittle">Call Of Deauty</div>
+              <div class="sub-title">December 25, 2022 4:00 PM</div>
+            </div>
+
+            <div class="match-socials">
+
+              <div class="social">
+                <img src="../assets/images/icon/youtube-icon.png" alt="">
+                <div>Youtube</div>
+              </div>
+
+              <div class="social">
+                <img src="../assets/images/icon/twitch-icon.png" alt="">
+                <div>Twitch</div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+        <!-- /.match -->
+
+        <div class="col-6">
+          <div class="card mt-3">
+
+            <div class="match p-4">
+              <img src="../assets/images/game-img-3.png" alt="">
+              <span class="versus">VS</span>
+              <img src="../assets/images/game-img-4.png" alt="">
+            </div>
+
+            <div class="match-info">
+              <div class="game-tittle">Legendary Battles</div>
+              <div class="sub-title">December 25, 2022 4:00 PM</div>
+            </div>
+
+            <div class="match-socials">
+
+              <div class="social">
+                <img src="../assets/images/icon/youtube-icon.png" alt="">
+                <div>Youtube</div>
+              </div>
+
+              <div class="social">
+                <img src="../assets/images/icon/twitch-icon.png" alt="">
+                <div>Twitch</div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+        <!-- /.match -->
+
+        <div class="col-6">
+          <div class="card mt-3">
+
+            <div class="match p-4">
+              <img src="../assets/images/game-img-5.png" alt="">
+              <span class="versus">VS</span>
+              <img src="../assets/images/game-img-6.png" alt="">
+            </div>
+
+            <div class="match-info">
+              <div class="game-tittle">Nay Corral Gundown</div>
+              <div class="sub-title">December 25, 2022 4:00 PM</div>
+            </div>
+
+            <div class="match-socials">
+
+              <div class="social">
+                <img src="../assets/images/icon/youtube-icon.png" alt="">
+                <div>Youtube</div>
+              </div>
+
+              <div class="social">
+                <img src="../assets/images/icon/twitch-icon.png" alt="">
+                <div>Twitch</div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+        <!-- /.match -->
+
+        <div class="col-6">
+          <div class="card mt-3">
+
+            <div class="match p-4">
+              <img src="../assets/images/game-img-7.png" alt="">
+              <span class="versus">VS</span>
+              <img src="../assets/images/game-img-8.png" alt="">
+            </div>
+
+            <div class="match-info">
+              <div class="game-tittle">League Of Legends</div>
+              <div class="sub-title">December 25, 2022 4:00 PM</div>
+            </div>
+
+            <div class="match-socials">
+
+              <div class="social">
+                <img src="../assets/images/icon/youtube-icon.png" alt="">
+                <div>Youtube</div>
+              </div>
+
+              <div class="social">
+                <img src="../assets/images/icon/twitch-icon.png" alt="">
+                <div>Twitch</div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+        <!-- /.match -->
+
+        <div class="col-12 t-center">
+          <button class="btn">VIEW ALL MATCH</button>
+        </div>
+        <!-- /.btn -->
+
+      </div>
+
+    </div>
+  </div>
+  <!-- /.battle -->
+
 
 </template>
 

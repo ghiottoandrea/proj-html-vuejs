@@ -4,25 +4,98 @@
     background-color: $dark;
     padding: 5rem 0;
 }
-.box{
+
+.box {
     display: flex;
     flex-direction: column;
     gap: 1rem;
     margin-left: 2rem;
 }
+
 .sub-title {
     color: $primary_light;
     font-size: 20px;
 }
+
 .title {
     color: $lighter;
     font-size: 50px;
 }
+
 .text {
     color: $light;
 }
 
-.small-tittle{
+.small-tittle {
     color: $lighter;
     font-size: 20px;
+}
+
+.battle {
+    background-color: #212733;
+    padding: 5rem 0;
+
+}
+
+.versus {
+    color: $primary;
+    font-size: 50px;
+}
+
+.match {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+
+
+.match-info {
+    text-align: center;
+    background-color: $secondary;
+    padding: 2rem;
+
+}
+
+.match-socials {
+    display: flex;
+    padding: 2rem;
+    align-self: center;
+    justify-content: center;
+
+    .social {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 1rem;
+        color: $lighter;
+    }
+}
+
+.card {
+    margin-top: 2rem;
+    margin-right: 1rem;
+    background-color: #28344A;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+}
+
+.game-tittle {
+    color: $lighter;
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+
+.t-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.battle-title{
+    text-align: center;
+    margin-bottom: 2rem;
 }

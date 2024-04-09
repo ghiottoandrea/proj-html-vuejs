@@ -72,7 +72,7 @@ export default {
 
           <div class="col-5">
 
-            <div class="card">
+            <div class="box">
               <div class="sub-title">Game With Live Streaming</div>
               <div class="card-title">Future Of Esports</div>
               <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
