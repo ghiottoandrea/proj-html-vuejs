@@ -6,13 +6,14 @@ $secondary: #30405f;
 $tertiary: #ff9933;
 $lighter: #ffffff;
 
-*{
+* {
     margin: 0;
     padding: 0;
-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Orbitron", sans-serif;
 }
 
-.img{
+.img {
     width: 100%;
 }
 
@@ -20,15 +21,33 @@ box-sizing: border-box;
     width: 70%;
     margin: auto;
 }
-.row{
+
+.row {
     display: flex;
+    flex-wrap: wrap;
 }
-.col-5{
+.col-2 {
+    width: calc((100%/12)*2);
+}
+.col-4 {
+    width: calc((100%/12)*4);
+}
+
+.col-5 {
     width: calc((100%/12)*5);
 }
+
 .col-6 {
     width: 50%;
 }
-.col-7{
+
+.col-7 {
     width: calc((100%/12)*7);
+}
+
+.col-8 {
+    width: calc((100%/12)*8);
+}
+.col-10 {
+    width: calc((100%/12)*10);
 }

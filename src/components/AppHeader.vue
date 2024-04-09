@@ -38,6 +38,7 @@ export default {
 <template>
 
   <header>
+    
     <div class="container">
 
       <nav>
@@ -97,6 +98,7 @@ export default {
 
 
     </div>
+
   </header>
   <!-- /header -->
 

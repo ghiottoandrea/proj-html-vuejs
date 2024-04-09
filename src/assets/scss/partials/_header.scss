@@ -9,7 +9,7 @@ header {
 
 .menu {
     display: flex;
-    padding: 1rem 0;
+    padding: 0.7rem 0;
 }
 
 .left_menu {
@@ -20,11 +20,11 @@ header {
     width: 50%;
     display: flex;
     gap: 1rem;
+    align-items: center;
     color: $light;
 
     ul {
         list-style: none;
-        flex-direction: row;
     }
 }
 
@@ -32,12 +32,12 @@ header {
     width: 20%;
     display: flex;
     align-items: center;
-gap: 1rem;
+    gap: 1rem;
 }
 
 
 .index-banner {
-    margin: 5rem 0;
+    margin-top: 5rem;
 }
 
 
@@ -60,25 +60,27 @@ gap: 1rem;
     color: $light;
     font-size: 15px;
 }
-.card-btn{
+
+.card-btn {
     display: flex;
     margin-top: 1rem;
 }
-.btn{
-    background-color:$primary;
+
+.btn {
+    background-color: $primary;
     border: none;
     border-radius: 20px;
     padding: 0.5rem 1rem;
 }
 
-.play-icon{
+.play-icon {
     background-color: $lighter;
     margin-left: 1rem;
     padding: 0.7rem;
     border-radius: 50%;
 }
 
-.banner-image{
+.banner-image {
     width: 650px;
     margin-top: -8rem;
 }

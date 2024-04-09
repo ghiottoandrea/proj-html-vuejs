@@ -1,1 +1,28 @@
 @use './variables' as *;
+
+.gaming-plat {
+    background-color: $dark;
+    padding: 5rem 0;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-left: 2rem;
+}
+.sub-title {
+    color: $primary_light;
+    font-size: 20px;
+}
+.title {
+    color: $lighter;
+    font-size: 50px;
+}
+.text {
+    color: $light;
+}
+
+.small-tittle{
+    color: $lighter;
+    font-size: 20px;
+}
