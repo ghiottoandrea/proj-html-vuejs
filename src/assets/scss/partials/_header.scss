@@ -1,1 +1,84 @@
 @use './variables' as *;
+
+header {
+    background-image: url(../images/index-banner-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.menu {
+    display: flex;
+    padding: 1rem 0;
+}
+
+.left_menu {
+    width: 30%;
+}
+
+.mid_menu {
+    width: 50%;
+    display: flex;
+    gap: 1rem;
+    color: $light;
+
+    ul {
+        list-style: none;
+        flex-direction: row;
+    }
+}
+
+.right_menu {
+    width: 20%;
+    display: flex;
+    align-items: center;
+gap: 1rem;
+}
+
+
+.index-banner {
+    margin: 5rem 0;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.sub-title {
+    color: $primary_light ;
+}
+
+.card-title {
+    color: $lighter;
+    font-size: 70px;
+}
+
+.card-text {
+    color: $light;
+    font-size: 15px;
+}
+.card-btn{
+    display: flex;
+    margin-top: 1rem;
+}
+.btn{
+    background-color:$primary;
+    border: none;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+}
+
+.play-icon{
+    background-color: $lighter;
+    margin-left: 1rem;
+    padding: 0.7rem;
+    border-radius: 50%;
+}
+
+.banner-image{
+    width: 650px;
+    margin-top: -8rem;
+}

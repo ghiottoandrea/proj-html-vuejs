@@ -1,6 +1,6 @@
 <script>
 export default {
-  name: footerApp
+  name: 'AppMain'
 }
 </script>
 
