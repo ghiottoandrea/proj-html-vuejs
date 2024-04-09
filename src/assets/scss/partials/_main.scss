@@ -124,3 +124,64 @@
         text-align: center;
     }
 }
+
+//Live STreaming
+
+.live-streaming{
+    background-color: $dark;
+    padding: 5rem;
+    background-image: url('/src/assets/images/live-streaming-bg.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.video-img{
+    width: 100%;
+    text-align: center;
+}
+.relative{
+    position: relative;
+}
+.live {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+.live-btn {
+    background-color: $tertiary;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+ 
+}
+.play-video {
+    text-align: center;
+    position: absolute;
+    top: 200px;
+    left: 270px;
+}
+.video-icon {
+    background-color: $lighter;
+    padding: 1.2rem;
+    border-radius: 50%;
+}
+.video-name {
+    color: $lighter;
+    font-size: 40px;
+}
+.views-count {
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+.views-numb{
+    color: $primary_light;
+}
+.views-info {
+    color: $lighter;
+}

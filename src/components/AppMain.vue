@@ -273,6 +273,53 @@ export default {
   </div>
   <!-- /.quick-facts -->
 
+  <div class="live-streaming">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-12 battle-title">
+          <div class="sub-title">Live Streaming</div>
+          <div class="title">Watch The Streams</div>
+          <div class="text">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae corrupti maxime dignissimos
+            facere id alias?
+          </div>
+        </div>
+
+        <div class="col-12 relative">
+          <img class="video-img" src="../assets/images/video-bg.png" alt="">
+
+          <div class="live">
+            <button class="live-btn">
+              <img src="../assets/images/icon/live-icon.png" alt="">
+              Live
+            </button>
+          </div>
+
+          <div class="play-video">
+            <img class="video-icon" src="../assets/images/icon/play-icon.png" alt="">
+            <div class="video-name">League Of Legends</div>
+          </div>
+
+          <div class="views-count">
+            <div class="views">
+              <span class="views-numb">356,599 </span>
+              <span class="views-info">Viewers</span>
+            </div>
+
+            <div class="likes">
+              <span class="views-numb">23,599 </span>
+              <span class="views-info">Likes</span>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- /.live-streaming -->
+
 </template>
 
 <style></style>
