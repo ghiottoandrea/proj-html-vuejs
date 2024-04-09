@@ -231,6 +231,47 @@ export default {
   </div>
   <!-- /.battle -->
 
+  <div class="quick-facts">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-12">
+          <div class="title battle-title">Futio Quick Facts</div>
+        </div>
+
+        <div class="col-3">
+          <div class="card card-quick">
+            <div class="number">1135</div>
+            <div class="number-info">Twitch Streams</div>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="card card-quick">
+            <div class="number">44</div>
+            <div class="number-info">Total Games</div>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="card card-quick">
+            <div class="number">982</div>
+            <div class="number-info">Youtube Streams</div>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="card card-quick">
+            <div class="number">40</div>
+            <div class="number-info">Pro Teams</div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+  <!-- /.quick-facts -->
 
 </template>
 

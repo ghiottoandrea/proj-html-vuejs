@@ -99,3 +99,28 @@
     text-align: center;
     margin-bottom: 2rem;
 }
+
+//QUick
+
+.quick-facts{
+    background-color: $dark;
+    padding: 5rem;
+}
+
+.card-quick{
+    padding: 2rem;
+    background-color: $dark;
+    border: 1px solid rgb(53, 53, 53);
+
+    .number{
+        color: $lighter;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .number-info{
+        color: $primary_light;
+        font-size: 15px;
+        text-align: center;
+    }
+}
